@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CitySearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CitySearch.Designer.cs">
+      <DependentUpon>CitySearch.cs</DependentUpon>
+    </Compile>
     <Compile Include="CurrentScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -70,6 +76,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CitySearch.resx">
+      <DependentUpon>CitySearch.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CurrentScreen.resx">
       <DependentUpon>CurrentScreen.cs</DependentUpon>
     </EmbeddedResource>
